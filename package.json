@@ -4,7 +4,9 @@
   "description": "The simple gulp plugin to run unit tests using Mocha API",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint index.js",
+    "publish-please": "publish-please",
+    "prepublishOnly": "publish-please guard"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
   },
   "homepage": "https://github.com/AndreyBelym/gulp-mocha-simple#readme",
   "devDependencies": {
-    "eslint": "^8.45.0"
+    "eslint": "^8.45.0",
+    "publish-please": "^5.5.2"
   },
   "dependencies": {
     "mocha": "^10.2.0"
