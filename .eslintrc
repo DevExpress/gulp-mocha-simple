@@ -1,5 +1,4 @@
 {
-  "parser": "@typescript-eslint/parser",
   "env": {
     "es6": true,
     "node": true
@@ -8,8 +7,7 @@
     "sourceType": "module"
   },
   "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
+    "eslint:recommended"
   ],
   "rules": {
     "no-alert": 2,
@@ -39,7 +37,6 @@
     "no-script-url": 2,
     "no-sequences": 2,
     "no-shadow": 0,
-    "@typescript-eslint/no-shadow": 2,
     "no-shadow-restricted-names": 2,
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
@@ -97,35 +94,7 @@
     "comma-dangle": ["error", "always-multiline"],
     "prefer-rest-params": 0,
     "prefer-spread": 0,
-    "@typescript-eslint/no-explicit-any": 0,
-    "@typescript-eslint/no-extra-parens": 2,
-    "@typescript-eslint/no-use-before-define": [2, "nofunc"],
-    "@typescript-eslint/no-var-requires": [0],
-    "@typescript-eslint/explicit-function-return-type": "off",
     "no-unused-vars": 0,
-    "@typescript-eslint/no-unused-vars": 2,
-    "@typescript-eslint/no-empty-function": 0,
-    "@typescript-eslint/no-this-alias": 0,
-    "@typescript-eslint/ban-ts-comment": 0,
-    "no-prototype-builtins": 0,
-    "@typescript-eslint/ban-types": [
-      "error",
-      {
-        "types": {
-          "Function": false
-        }
-      }
-      ]
-  },
-  "overrides": [
-    {
-      "files": ["*.ts"],
-      "rules": {
-        "@typescript-eslint/explicit-function-return-type": [2, { "allowExpressions": true }],
-        "@typescript-eslint/no-empty-function": 2,
-        "prefer-spread": 2,
-        "@typescript-eslint/ban-ts-ignore": 0
-      }
-    }
-  ]
+    "no-prototype-builtins": 0
+  }
 }
