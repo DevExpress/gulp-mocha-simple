@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/AndreyBelym/gulp-mocha-simple#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.2.1",
     "eslint": "^8.45.0",
     "publish-please": "^5.5.2"
   },
