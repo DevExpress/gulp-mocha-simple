@@ -14,6 +14,6 @@ module.exports = opts => {
 
         flush (cb) {
             mocha.run(cb);
-        }
+        },
     });
 };
