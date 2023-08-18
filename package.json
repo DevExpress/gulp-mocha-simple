@@ -29,5 +29,9 @@
   },
   "dependencies": {
     "mocha": "^10.2.0"
+  },
+  "overrides": {
+    "lodash": "^4.17.21",
+    "semver": "^5.7.2"
   }
 }
