@@ -29,5 +29,11 @@
   },
   "dependencies": {
     "mocha": "^10.2.0"
+  },
+  "overrides": {
+    "publish-please": {
+      "lodash": "^4.17.21",
+      "semver": "^5.7.2"
+    }
   }
 }
